@@ -115,7 +115,7 @@
       applicationID: '',
       apiKey: '',
       indexName: '',
-      hits: {"per_page":1},
+      hits: {"per_page":10},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
   };
@@ -358,8 +358,7 @@
 
       
         
-          
-            <blockquote>
+          <blockquote>
 <p><strong> 虽然网上也有很多的教程，但是还是想把自己的记录一下，免得n年之后忘记了。这也是一种学习，一种成长。</strong></p>
 </blockquote>
 <ol>
@@ -378,62 +377,13 @@
 <li>hexo-cli</li>
 </ul>
 <h3 id="搭建个人博客开始了，赶紧上车！开车了！"><a href="#搭建个人博客开始了，赶紧上车！开车了！" class="headerlink" title="搭建个人博客开始了，赶紧上车！开车了！"></a>搭建个人博客开始了，赶紧上车！开车了！</h3><p>嘟嘟嘟。。。。。。<br>没时间解释了。。。赶紧上车！</p>
-<ul>
-<li><p>1.先安装 强大的 Node.js先吧！</p>
-<blockquote>
-<p>下载链接<br><a href="https://nodejs.org/en/" title="Node.js" target="_blank" rel="external">Node.js</a><br>最好是下载的是稳定版本，至于安装的步骤就不详解了。相信你是最棒的！博主的版本是<strong>v6.10.2</strong></p>
-</blockquote>
-</li>
-<li><p>2.安装Git</p>
-<blockquote>
-<p>下载链接 <a href="https://git-scm.com/download/" title="Git" target="_blank" rel="external">Git</a> 博主下载的版本是<strong>git version 2.12.0.windows.1</strong></p>
-</blockquote>
-<p>前面两个装好了之后，可以调出cmd，输入命令npm -v ,可以输出的是4.5.0（博主npm的版本）<br>哎哟，我去，废话真多！</p>
-</li>
-<li><p>3.安装hexo-cli【这个是用于生成hexo主题、生成静态页面和部署到github上，一个命令就搞定了】</p>
-<blockquote>
-<p><a href="https://hexo.io/" title="hexo" target="_blank" rel="external">hexo</a>官网<br>在cmd中执行命令 <code>F:\LnfgBlog&gt;npm install hexo-cli -g</code></p>
-<p>切换到自己要存放博客文件的目录，比如：F:\LnfgBlog 文件夹下。</p>
-<p>初始化hexo 博客 <code>F:\LnfgBlog&gt;hexo init blog</code>  然后在LnfgBlog目录下得到一个名为blog的文件夹。里面有相关的代码。</p>
-<p>继续执行 <code>F:\LnfgBlog&gt;npm install</code></p>
-<p>然后执行 <code>F:\LnfgBlog&gt;hexo server</code></p>
-<p>然后复制 链接 <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a><br>到网址上就可以显示一个简单的界面了。</p>
-<p>就是那么简单</p>
-</blockquote>
-</li>
-</ul>
-<p>&gt;</p>
-<h2 id="3-github账号申请与pages的操作"><a href="#3-github账号申请与pages的操作" class="headerlink" title="3.github账号申请与pages的操作"></a>3.github账号申请与pages的操作</h2><h3 id="①"><a href="#①" class="headerlink" title="①"></a>①</h3><blockquote>
-<p>到<a href="https://github.com/" title="Github" target="_blank" rel="external">Github</a>上申请一个账号。<br>然后我们登陆，可以到这里看<a href="https://pages.github.com/" title="官方的教程指导" target="_blank" rel="external">官方的教程</a>。</p>
-</blockquote>
-<ul>
-<li>到这儿 <a href="https://github.com/new" title="创建仓库" target="_blank" rel="external">创建仓库</a> 亦即是 你的 博客项目名称。</li>
-<li><p>注意：博客项目名称必须是照</p>
-<blockquote>
-<p>{username}.github.ui </p>
-</blockquote>
-</li>
-</ul>
-<p>-命名。创建好之后呢，就可以使用git 操作了。</p>
-<h3 id="②"><a href="#②" class="headerlink" title="②"></a>②</h3><ul>
-<li><p>克隆博客项目到本地<br>使用 git 操作，在你想要的目录下 打开 git bash，然后</p>
-<p>  ~ $ git clone <a href="https://github.com/username/username.github.io" target="_blank" rel="external">https://github.com/username/username.github.io</a></p>
-</li>
-<li><p>随便添加点内容</p>
-<p>   <code>~ $ cd username.github.io·</code></p>
-<p>   <code>~$ echo &quot;Hello World&quot; &gt; index.html</code></p>
-</li>
-<li><p>添加，提交和上传到github上</p>
-<p>  <code>~ $ git add --all</code></p>
-<p>  <code>~ $ git commit -m &quot;第一次提交项目&quot;</code></p>
-<p>  <code>~ $ git push -u origin master</code></p>
-</li>
-<li><p>然后看看github 上的 博客是不是已经添加了新的文件.</p>
-</li>
-<li>未完，待续。。。。。。</li>
-</ul>
-
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/04/26/修仙之-记录下自己搭建的个人博客/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
